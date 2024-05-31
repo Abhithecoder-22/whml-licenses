@@ -1,0 +1,306 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color:var(--background);
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  background-color:var(--background);
+  color: var(--foreground);
+  position: relative; /* Ensure the main container is positioned relative for its children to be positioned absolute */
+  width: 100%;
+  z-index: 0; /* Correct the z-index */
+  height: 100vh; /* Make sure the hero section takes full viewport height */
+}
+@media (max-width:800px){
+  .main{
+    display:  block;
+  }
+}
+
+.corner-img-left,
+.corner-img-right,
+.corner-img-bottom-left,
+.corner-img-bottom-right,
+.center-svg,
+.tech-image {
+  position: absolute;
+  /* width: 400px; */
+}
+@media (max-width: 800px){
+  .corner-img-left,
+.corner-img-right,
+.corner-img-bottom-left,
+.corner-img-bottom-right,
+.center-svg {
+display: none;
+}
+}
+
+.corner-img-left {
+  top: 0;
+  left: 0;
+}
+
+.corner-img-right {
+  top: 0;
+  right: 0;
+}
+
+.corner-img-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.corner-img-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.center-svg {
+  top: 60%;
+  left: 10%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.tech-image {
+  width: 30rem;
+  height: auto;
+  top: 50%;
+  right: 3rem;
+  transform: translateY(-50%);
+}
+
+/* If you want specific transformations for the rotated images, keep them */
+.rotated-image-1 {
+  transform: rotateY(180deg);
+}
+
+.rotated-image-2 {
+  transform: rotateY(180deg) rotateX(180deg);
+}
+
+.rotated-image-3 {
+  transform: rotateX(180deg);
+}
+
+.navbar {
+  position: absolute; /* Ensure navbar stays in the flow of the document */
+  z-index: 1; /* Ensure navbar is on top of other elements */
+  width: 100%;
+  /* margin-top: 2rem; */
+  background-color: var(--background);
+  color: var(--foreground);
+  /* background: none; */
+  /* padding: 20px; */
+}
+
+.hero-text {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  margin-left: 3rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--foreground); /* Change this to the desired text color */ /* Ensure no background is set */
+  padding: 10px; /* Add some padding for better readability */
+  max-width: 50%;
+  /* text-align: justify; */
+  /* Limit the width for better layout */
+  z-index: 1; /* Ensure hero text is on top of other elements */
+}
+
+.hero-text h1 {
+  text-align: justify;
+  font-size: 2.5rem; /* Adjust font size as needed */
+  font-weight: 800;
+  color: var(--foreground);
+}
+blue-txt {
+  color: blue;
+}
+
+.hero-text p {
+  text-align: justify;
+  /* max-width: 400px; */
+  color: var(--foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  font-size: 0.8rem; /* Adjust font size as needed */
+}
+.test {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust gap as needed */
+}
+
+
+
+.scroll-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+/* styles.css */
+.cheap-txt {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 4rem;
+  color: var(--foreground);
+
+}
+
+.cheap-txt h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  word-spacing: 0.6rem; /* Add spacing between words */
+  margin-bottom: 1rem;
+  
+}
+.cheap-txt p {
+  text-align: justify;
+}
+
+.why-choose {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.why-choose h1 {
+  text-align: center;
+  word-spacing: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.why-choose p {
+  text-align: center;
+  color: var(--foreground);
+  font-size: 1.5rem;
+}
+
+.card-choose {
+  margin-top: 4rem;
+}
+
+.card-icon {
+  font-size: 4rem;
+  color: blue;
+}
+
+.support-team-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 4rem; */
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+.title-section {
+  width: 80%;
+}
+
+.title-section h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 1rem;
+}
+
+.list li {
+  display: inline;
+  font-weight: 700;
+}
+
+.support-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width:800px){
+  .support-team-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 4rem; */
+    padding: 3rem;
+    box-sizing: border-box;
+  }
+}
+
+section {
+  padding: 3rem;
+  /* 
+   */
+}
+.container h2 {
+  font-size: 2rem;
+  color: var(--foreground);
+}
+
+.form-subscribe {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form-subscribe .form-control {
+  background-color: var(--background);
+  color: var(--secondary-foreground);
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 1px;
+  border: none;
+  border-top-left-radius: 36px;
+  border-bottom-left-radius: 36px;
+}
+.form-subscribe .form-control.focus,
+.form-subscribe .form-control:focus {
+  z-index: 2;
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+}
+
+.input-group {
+  display: flex;
+}
+
+.button-group {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.full-width-btn {
+  inline-size: 27%;
+}
