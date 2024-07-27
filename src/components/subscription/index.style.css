@@ -1,0 +1,70 @@
+.subcription_switch_button span[data-state='checked'] {
+  background-color: white;
+}
+
+.subcription_switch_button span[data-state='unchecked'] {
+  background-color: white !important;
+}
+
+.data-\[state\=unchecked\]\:bg-input[data-state='unchecked'] {
+  background-color: hsl(var(--switch-btn));
+}
+
+.subscription_card_footer {
+  background-color: hsl(var(--card));
+}
+
+.outer_subscription_card {
+  clip-path: polygon(
+    27% 0,
+    67% 0,
+    100% 7%,
+    100% 93%,
+    68% 100%,
+    27% 100%,
+    0 93%,
+    0 7%
+  );
+  background: rgb(var(--primary)) !important;
+}
+
+.inner_subscription_card {
+  overflow: hidden;
+  clip-path: polygon(
+    calc(27% + 2px) 2px,
+    calc(67% - 2px) 2px,
+    calc(100% - 2px) 7%,
+    calc(100% - 2px) 92.5%,
+    calc(68% - 2px) calc(100% - 2px),
+    calc(27% + 2px) calc(100% - 2px),
+    2px calc(93% - 1px),
+    3.4px 7%
+  );
+
+  background-color: var(--todo-summary-card) !important;
+}
+
+.Ja-button-Choose-Plan:hover {
+  background-color: #89d289;
+  color: black !important;
+}
+
+.subscription_card_recommended_btn {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 1.1rem !important;
+}
+
+.subscription_right_border {
+  border-right: 1px solid gray;
+}
+
+.enterprice-card{
+ clip-path: polygon(8% 0, 100% 0, 100% 86%, 92% 100%, 0 100%, 0 14%);
+   background-color: var(--todo-summary-card) !important;
+   border-radius: 3%;
+}
+
+

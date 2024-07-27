@@ -1,0 +1,49 @@
+.container-lic {
+
+  }
+  
+  .section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .section-paragraph {
+    margin-bottom: 15px;
+    color: #555555;
+  }
+  
+  .section-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blue-button {
+    background-color: #007bff;
+  }
+  
+  .blue-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .green-button {
+    background-color: #28a745;
+  }
+  
+  .green-button:hover {
+    background-color: #218838;
+  }
+  

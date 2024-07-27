@@ -1,0 +1,10 @@
+
+.additional-styles_checkbox{
+    background: rgb(var(--background-color)) !important;
+    border-color: rgb(var(--ja-checkbox-border)) !important;
+}
+
+
+.data-\[state\=checked\]\:text-primary-foreground[data-state=checked] {
+    color: rgb(var(--ja-checkbox-check_icon))
+}

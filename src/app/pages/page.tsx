@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from 'react';
-import './page.css';
+// import './page.css';
 import { Button } from '@/components/ui/button'; 
 import {
   DropdownMenu,

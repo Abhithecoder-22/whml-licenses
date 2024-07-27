@@ -1,0 +1,116 @@
+.support-team-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 4rem; */
+    /* background-color: rgb(var(--background)); */
+    color: rgb(var(--foreground));
+    padding: 3rem;
+    box-sizing: border-box;
+  }
+  
+  .title-section {
+    width: 80%;
+  }
+  
+  .title-section h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 1rem;
+  }
+  
+  .list li {
+    display: inline;
+    font-weight: 700;
+  }
+  
+  .support-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .button-group {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  @media (max-width:800px){
+    .support-team-section {
+      display: block;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      /* margin-top: 4rem; */
+      padding: 3rem;
+      box-sizing: border-box;
+    }
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    color: var(--foreground);
+  }
+  
+  .form-subscribe {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .form-subscribe .form-control {
+    /* background-color: rgb(var(--background)); */
+    /* color: rgb(var(--foreground)); */
+    padding-left: 24px;
+    padding-right: 24px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+  }
+  .form-subscribe .form-control.focus,
+  .form-subscribe .form-control:focus {
+    z-index: 2;
+    /* background-color: rgb(var(--background)); */
+    /* color: rgb(var(--foreground)); */
+  }
+  
+  .input-group {
+    display: flex;
+  }
+
+  .footer-btn{
+    /* display: flex; */
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+  
+
+  

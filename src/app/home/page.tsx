@@ -1,6 +1,6 @@
-import React from 'react'
+import React,{useContext} from 'react'
 import './page.css'
-import Page from '../pages/page'
+import Page from '../header/page'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import {
@@ -12,6 +12,8 @@ import {
 } from '@/components/ui/card';
 import { Input } from '@/components/ui/input'
 import ImageScroller from '@/components/image-scroller'
+import { CountryTrackContext } from '@/context/countryTrack'
+import Footer from '@/components/footer'
 
 
 
@@ -20,20 +22,7 @@ const page = () => {
     // {===================Hero Section===================}
     <div>
       <div className='main'>
-        {/* <div className="corner-img-left">
-          <img src="/Vector.png" alt="" className="rotated-image-1" width={'400px'} />
-        </div>
-
-        <div className="corner-img-right" >
-          <img src="/Vector.png" alt="" width={'400px'} />
-        </div>
-        <div className="corner-img-bottom-left">
-          <img src="/Vector.png" alt="" className="rotated-image-2" width={'400px'} />
-        </div>
-
-        <div className="corner-img-bottom-right" >
-          <img src="/Vector.png" alt="" className="rotated-image-3" width={'400px'} />
-        </div> */}
+        
         <div className="center-svg" >
           <img src="/Group (1).png" alt="" />
         </div>
@@ -137,52 +126,12 @@ const page = () => {
         </div>
       </div>
 
-      <div className="support-team-section">
-        <div className="title-section">
-          <h1>Start Your Free Cheap cPanel License Trial Today</h1>
-          <ul className="list">
-            <li>NO CREDIT CARD REQUIRED</li>
-            <li>7 DAYS FREE TRIAL</li>
-            <li>24/7 EXPERT SUPPORT</li>
-          </ul>
-        </div>
-        <div className="support-btn">
-          <Button variant={'destructive'}>Click To Support Team</Button>
-        </div>
-      </div>
 
+      {/* ==================Footer Section========================== */}
 
-
-      <div className="newsletter-section">
-
-
-        <section className="bg-img text-center">
-          <div className="container">
-            <h2>
-              <strong>Subscribe To Our Newsletter</strong>
-            </h2>
-           
-            <br></br>
-              <form className="form-subscribe" action="#">
-                <div className="input-group">
-
-                  <Input type="email" placeholder="Email" className="form-control input-lg" />
-                  <span className="input-group-btn">
-                    <Button variant={'destructive'} className="btn  btn-lg" >Subscribe</Button>
-                  </span>
-                </div>
-              </form>
-              <div className="button-group">
-            <Button variant={'destructive'}  className="btn btn-lg full-width-btn">Refund Policy</Button>
-            <Button variant={'destructive'} className="btn btn-lg full-width-btn">Terms & Condition</Button>
-          </div>
-            </div>
-            </section>
-            
-
-
-
-          </div>
+    <div className="footer-section">
+      <Footer/>
+    </div>
 
 
       </div>
