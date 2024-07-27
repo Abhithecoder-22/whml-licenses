@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils"
 import './page.css'
 import { CountryTrackContext } from "@/context/countryTrack"
 import axios from "axios"
+import { log } from "console"
 
 type PricingSwitchProps = {
   onSwitch: (value: string) => void
@@ -47,8 +48,13 @@ const PricingSwitch = ({ onSwitch }: PricingSwitchProps) => (
   </Tabs>
 )
 
-const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, features, actionLabel, popular, exclusive }: PricingCardProps) => (
-  <Card
+const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, features, actionLabel, popular, exclusive }: PricingCardProps) =>
+ {
+  const c=useContext(CountryTrackContext)
+  console.log(c.countryTrack);
+  
+  return(
+    <Card
     className={cn(`w-72 flex flex-col justify-between py-1 ${popular ? "border-rose-400" : "border-zinc-700"} mx-auto sm:mx-0`, {
       "animate-background-shine bg-white dark:bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] transition-colors":
         exclusive,
@@ -69,7 +75,7 @@ const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, 
           <CardTitle className="text-zinc-700 dark:text-zinc-300 text-lg">{title}</CardTitle>
         )}
         <div className="flex gap-0.5">
-          <h3 className="text-3xl font-bold">{monthlyPrice}</h3>
+          <h3 className="text-3xl font-bold">{c.countryTrack ? '₹' + monthlyPrice : '$' +monthlyPrice}</h3>
           <span className="flex flex-col justify-end text-sm mb-1">/month</span>
         </div>
         <CardDescription className="pt-1.5 h-12">{description}</CardDescription>
@@ -87,7 +93,9 @@ const PricingCard = ({ isYearly, title, monthlyPrice, yearlyPrice, description, 
       </Button>
     </CardFooter>
   </Card>
-)
+  )
+ }
+  
 
 const CheckItem = ({ text }: { text: string }) => (
   <div className="flex gap-2">
@@ -155,7 +163,7 @@ export default function PricingShad() {
   const plans = [
     {
       title: "Level - 1",
-      monthlyPrice: country.countryTrack ? Number('₹2000') : Number("$25"),
+      monthlyPrice: country.countryTrack ? 2000 : 25,
       yearlyPrice: 100,
       description: "Price list for resellers : (Level 1)",
       features: country.countryTrack ? [
@@ -199,7 +207,7 @@ export default function PricingShad() {
     },
     {
       title: "Level - 2",
-      monthlyPrice: country.countryTrack ? Number('₹35') :Number( '$39'),
+      monthlyPrice: country.countryTrack ?  35 :39,
       yearlyPrice: 100,
       description: "Price list for resellers : (Level 1)",
       features: country.countryTrack ? [
@@ -243,7 +251,7 @@ export default function PricingShad() {
     },
     {
       title: "Level - 3",
-      monthlyPrice: country.countryTrack ? Number('₹3767') : Number('$45'),
+      monthlyPrice: country.countryTrack ? 3767 : 45,
       yearlyPrice: 100,
       description: "Price list for resellers : (Level 1)",
       features: country.countryTrack ? [
