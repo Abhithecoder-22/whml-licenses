@@ -207,7 +207,7 @@ export default function PricingShad() {
     },
     {
       title: "Level - 2",
-      monthlyPrice: country.countryTrack ?  35 :39,
+      monthlyPrice: country.countryTrack ?  3500 :39,
       yearlyPrice: 100,
       description: "Price list for resellers : (Level 1)",
       features: country.countryTrack ? [
