@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
           <div className="flex gap-4">
             <Link
-              href="#"
+              href="/cheap-cpanel-licenses"
               className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-black text-white text-sm font-medium shadow-sm w-full transition-colors hover:bg-gray-900 hover:text-white dark:border-gray-800 dark:bg-black dark:hover:bg-gray-900 dark:hover:text-white dark:focus-visible:ring-gray-300"
               prefetch={false}
             >
@@ -30,11 +30,11 @@ export default function Hero() {
 
 
             <Link
-              href="#"
+              href="https://wa.me/9667987233"
               className="inline-flex h-10 items-center justify-center rounded-md border border-red-600 bg-red-600 text-sm font-medium shadow-sm w-full text-white transition-colors hover:bg-red-700 hover:border-red-700 dark:border-red-600 dark:bg-red-600 dark:hover:bg-red-700 dark:focus-visible:ring-red-300"
               prefetch={false}
             >
-              Click To Join
+              Click To Support
             </Link>
 
           </div>

@@ -1,19 +1,25 @@
-import React from 'react'
-import './index.css'
+import React from 'react';
+import './index.css';
 
-const SlideButton = () => {
+interface SlideButtonProps {
+  url: string;
+}
+
+const SlideButton: React.FC<SlideButtonProps> = ({ url }) => {
   return (
     <div>
       <div id="container-btn">
-  <button className="learn-more">
-    <span className="circle" aria-hidden="true">
-      <span className="icon arrow"></span>
-    </span>
-    <span className="button-text">Client Area</span>
-  </button>
-</div>
+        <a href={url} target="_blank" rel="noopener noreferrer">
+          <button className="learn-more">
+            <span className="circle" aria-hidden="true">
+              <span className="icon arrow"></span>
+            </span>
+            <span className="button-text">Client Area</span>
+          </button>
+        </a>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default SlideButton
+export default SlideButton;

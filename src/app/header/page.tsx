@@ -39,7 +39,7 @@ export default function Component() {
             {/* <Link href="#" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               Clinet area
             </Link> */}
-            <SlideButton/>
+            <SlideButton url="https://lic.whmlicenses.com"/>
           </div>
         </SheetContent>
       </Sheet>
@@ -88,7 +88,7 @@ export default function Component() {
         >
           Client area
         </Link> */}
-        <SlideButton/>
+        <SlideButton url="https://lic.whmlicenses.com"/>
       </nav>
     </header>
   )
