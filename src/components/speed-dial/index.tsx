@@ -10,7 +10,7 @@ const SpeedDial = () => {
         <TooltipTrigger asChild>
           <div className="fixed bottom-4 right-4 z-50">
             <a
-              href="https://wa.me/+916206967072"
+              href="https://wa.me/9667987233"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-green-500 rounded-full shadow-lg hover:bg-green-600"
