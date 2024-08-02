@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "../app/home/page.css"
 import  CountryTrack  from "@/context/countryTrack";
+import { Toaster } from "@/components/ui/toaster";
+import SpeedDial from "@/components/speed-dial";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <CountryTrack>
+          <Toaster/>
+          <SpeedDial/>
         {children}
         </CountryTrack>
        </body>

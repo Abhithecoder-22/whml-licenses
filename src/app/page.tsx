@@ -121,10 +121,10 @@ export default function Home() {
 
       {/* ==================Card detail section ================ */}
 
-      <div className="min-h-screen bg-gradient-to-b from-pink-100 to-pink-400 flex justify-center items-center">
+      <div className="min-h-screen bg-gradient-to-b from-blue-900 to-blue-600 flex justify-center items-center">
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -132,7 +132,7 @@ export default function Home() {
            <i className="ri-server-line card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Elevate Your Hosting Experience</h3>
+          <h3 className="font-bold text-black-700">Elevate Your Hosting Experience</h3>
           <p className="py-4 text-sm text-gray-400">
           Say goodbye to barriers for your hosting capabilities. Our Cheap cPanel License allows you to create a vast quantity of money owed, providing you with the freedom to enlarge your on-line presence with out constraints.</p>
         </div>
@@ -145,7 +145,7 @@ export default function Home() {
 
     {/* Repeat this block for each card */}
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -153,7 +153,7 @@ export default function Home() {
           <i className="ri-bar-chart-grouped-fill card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Streamlined Account Management</h3>
+          <h3 className="font-bold text-black-700">Streamlined Account Management</h3>
           <p className="py-4 text-sm text-gray-400">
 Experience the ease of dealing with several payments seamlessly. With our Cheap cPanel License, you may navigate via several debts effects, streamlining your administrative duties. From e mail configurations to document management.
 
@@ -166,7 +166,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
       </div> */}
     </div>
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -174,7 +174,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
            <i className="ri-cloud-line card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Stay Ahead with Cutting-Edge Features</h3>
+          <h3 className="font-bold text-black-700">Stay Ahead with Cutting-Edge Features</h3>
           <p className="py-4 text-sm text-gray-400">
           In the virtual realm, staying current is fundamental to achievement. Our Cheap cPanel License now not handiest gives limitless debts however also grants you get admission to the ultra-modern version of cPanel.  </p>
         </div>
@@ -185,7 +185,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
       </div> */}
     </div>
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -193,7 +193,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
            <i className="ri-cloud-line card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Lightning-Fast Performance</h3>
+          <h3 className="font-bold text-black-700">Lightning-Fast Performance</h3>
           <p className="py-4 text-sm text-gray-400">
           Speed is of the essence inside the online world, and our Cheap cPanel License with the latest model guarantees just that. Experience lightning-speedy overall performance as you navigate via the manage panel.</p>
         </div>
@@ -204,7 +204,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
       </div> */}
     </div>
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -212,7 +212,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
            <i className="ri-cloud-line card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Responsive and Reliable Support</h3>
+          <h3 className="font-bold text-black-700">Responsive and Reliable Support</h3>
           <p className="py-4 text-sm text-gray-400">
           We recognize that your internet site&apos;s achievement is based on activate and reliable support. Our CheapcPanel License comes with fast and responsive customer service, making sure that your queries and issues are addressed directly. </p>
         </div>
@@ -223,7 +223,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
       </div> */}
     </div>
     <div className="bg-white rounded-lg shadow-md">
-      <div className="w-96 border-t-8 border-pink-600 rounded-lg flex">
+      <div className="w-96 border-t-8 border-green-600 rounded-lg flex">
         <div className="w-1/3 pt-6 flex justify-center">
           {/* <svg xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 bg-pink-600 text-white p-3 rounded-full" fill="none" viewBox="0 0 24 24" height="24" width="24">
             <path d="M12 4.52765C9.64418 2.41689 6.02125 2.49347 3.75736 4.75736C1.41421 7.1005 1.41421 10.8995 3.75736 13.2426L10.5858 20.0711C11.3668 20.8521 12.6332 20.8521 13.4142 20.0711L20.2426 13.2426C22.5858 10.8995 22.5858 7.1005 20.2426 4.75736C17.9787 2.49347 14.3558 2.41689 12 4.52765ZM10.8284 6.17157L11.2929 6.63604C11.6834 7.02656 12.3166 7.02656 12.7071 6.63604L13.1716 6.17157C14.7337 4.60948 17.2663 4.60948 18.8284 6.17157C20.3905 7.73367 20.3905 10.2663 18.8284 11.8284L12 18.6569L5.17157 11.8284C3.60948 10.2663 3.60948 7.73367 5.17157 6.17157C6.73367 4.60948 9.26633 4.60948 10.8284 6.17157Z" fill="currentColor"></path>
@@ -231,7 +231,7 @@ Experience the ease of dealing with several payments seamlessly. With our Cheap 
            <i className="ri-cloud-line card-icon"></i>
         </div>
         <div className="w-full pt-9 pr-4">
-          <h3 className="font-bold text-pink-700">Multiple Payment Options for Your Convenience</h3>
+          <h3 className="font-bold text-black-700">Multiple Payment Options for Your Convenience</h3>
           <p className="py-4 text-sm text-gray-400">
           Flexibility is at the middle of our provider. Choose from a whole lot of price alternatives tailor-made to fit your alternatives. Whether you decide upon month-to-month subscriptions or annual plans.</p>
         </div>
