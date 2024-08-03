@@ -24,7 +24,7 @@ export default function SupportTeam() {
             </Link>
           </div>
           <div className="bg-muted rounded-lg p-6 space-y-2 text-center">
-            <h3 className="text-lg font-semibold">7 DAYS FREE TRIAL</h3>
+            <h3 className="text-lg font-semibold">48 Hrs FREE TRIAL</h3>
             <Link href="#" className="text-primary hover:underline" prefetch={false}>
               Learn more
             </Link>
