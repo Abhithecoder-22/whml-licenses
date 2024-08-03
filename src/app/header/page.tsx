@@ -33,39 +33,37 @@ export default function Component() {
               Licenses
             </Link>
             <div className="group inline-flex h-9 w-max items-center justify-center">
-        <div className="relative group">
+            <div className="relative group">
       <div className="flex items-center gap-2 cursor-pointer">
-        <span className="text-lg font-bold">Bucket</span>
+        <span className="font-medium">Bucket</span>
         <ChevronDownIcon className="h-4 w-4 transition-transform group-hover:rotate-180" />
       </div>
-      <div className="absolute top-full left-0 z-10 mt-2 w-max origin-top-left rounded-md bg-card shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
-        <div className="flex flex-col  gap-1 p-2">
+      <div className="absolute top-full left-0 z-10 mt-2 w-48 origin-top-left rounded-md bg-card p-2 shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
+        <div className="flex flex-col gap-1">
           <Link
             href="#"
-            className="rounded-md px-3 py-2 text-sm font-bold  "
+            className="block rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-            ACRONIS
+            Acronis
           </Link>
           <Link
             href="#"
-            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            className="block rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-           BUCKET FOR BACKUP
+           Bucket For Backup
           </Link>
           <Link
             href="#"
-            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            className="block rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-            AWS BUCKET
+            AWS Bucket
           </Link>
-     
+         
         </div>
-      </div>
-    </div>
-
+      </div></div>
         </div>
             <Link href="/license-reseller-account" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               Reseller License
@@ -104,35 +102,35 @@ export default function Component() {
           Licenses
         </Link>
         <div className="group inline-flex h-9 w-max items-center justify-center">
-        <div className="relative group">
+        <div className="flex justify-center relative group">
       <div className="flex items-center gap-2 cursor-pointer">
         <span className="text-lg font-bold">Bucket</span>
         {/* <ChevronDownIcon className="h-4 w-4 transition-transform group-hover:rotate-180" /> */}
       </div>
-      <div className="absolute top-full left-0 z-10 mt-2 w-max origin-top-left rounded-md bg-card shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
+      <div className="absolute top-full left-1/2 -translate-x-1/2 z-10 mt-2 w-max origin-top-left rounded-md bg-card shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
         <div className="flex items-center gap-1 p-2">
           <Link
             href="#"
-            className="rounded-md px-3 py-2 text-sm font-bold  "
+            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-            ACRONIS
+            Acronis
           </Link>
           <Link
             href="#"
             className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-           BUCKET FOR BACKUP
+            Buckets for Backup
           </Link>
           <Link
             href="#"
             className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
             prefetch={false}
           >
-            AWS BUCKET
+           AWS Bucket
           </Link>
-     
+       
         </div>
       </div>
     </div>
