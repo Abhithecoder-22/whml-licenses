@@ -32,37 +32,53 @@ export default function Component() {
             <Link href="/cheap-cpanel-licenses" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               Licenses
             </Link>
+            <div className="group inline-flex h-9 w-max items-center justify-center">
+        <div className="relative group">
+      <div className="flex items-center gap-2 cursor-pointer">
+        <span className="text-lg font-bold">Bucket</span>
+        <ChevronDownIcon className="h-4 w-4 transition-transform group-hover:rotate-180" />
+      </div>
+      <div className="absolute top-full left-0 z-10 mt-2 w-max origin-top-left rounded-md bg-card shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
+        <div className="flex flex-col  gap-1 p-2">
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold  "
+            prefetch={false}
+          >
+            ACRONIS
+          </Link>
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            prefetch={false}
+          >
+           BUCKET FOR BACKUP
+          </Link>
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            prefetch={false}
+          >
+            AWS BUCKET
+          </Link>
+     
+        </div>
+      </div>
+    </div>
+
+        </div>
             <Link href="/license-reseller-account" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               Reseller License
             </Link>
             <Link href="/docs" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               KB
             </Link>
-            <DropdownMenu>
-          <DropdownMenuTrigger className="flex items-center gap-1 font-bold">
-             Bucket <ChevronDownIcon className="h-4 w-4" />
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="start" className="w-[200px]">
-            <DropdownMenuLabel>Select Backup Storage</DropdownMenuLabel>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              ACRONIS 
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              BUCKET FOR BACKUP
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              AWS BUCKET
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
+       
             {/* <Link href="#" target="_blank" className="flex w-full items-center py-2 text-xl font-bold" prefetch={false}>
               Clinet area
             </Link> */}
-            <SlideButton url="https://lic.whmlicenses.com"/>
+                   <div className="group inline-flex h-9 w-max items-center justify-center">
+            <SlideButton url="https://lic.whmlicenses.com"/></div>
           </div>
         </SheetContent>
       </Sheet>
@@ -87,6 +103,41 @@ export default function Component() {
         >
           Licenses
         </Link>
+        <div className="group inline-flex h-9 w-max items-center justify-center">
+        <div className="relative group">
+      <div className="flex items-center gap-2 cursor-pointer">
+        <span className="text-lg font-bold">Bucket</span>
+        {/* <ChevronDownIcon className="h-4 w-4 transition-transform group-hover:rotate-180" /> */}
+      </div>
+      <div className="absolute top-full left-0 z-10 mt-2 w-max origin-top-left rounded-md bg-card shadow-lg group-hover:opacity-100 group-hover:visible transition-all duration-300 invisible opacity-0">
+        <div className="flex items-center gap-1 p-2">
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold  "
+            prefetch={false}
+          >
+            ACRONIS
+          </Link>
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            prefetch={false}
+          >
+           BUCKET FOR BACKUP
+          </Link>
+          <Link
+            href="#"
+            className="rounded-md px-3 py-2 text-sm font-bold hover:bg-accent hover:text-accent-foreground"
+            prefetch={false}
+          >
+            AWS BUCKET
+          </Link>
+     
+        </div>
+      </div>
+    </div>
+
+        </div>
         <Link
         target="_blank"
           href="/license-reseller-account"
@@ -103,29 +154,7 @@ export default function Component() {
         >
          KB
         </Link>
-        <div className="group inline-flex h-9 w-max items-center justify-center">
-        <DropdownMenu>
-          <DropdownMenuTrigger className="flex items-center gap-1 font-bold">
-             Bucket <ChevronDownIcon className="h-4 w-4" />
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="start" className="w-[200px]">
-            <DropdownMenuLabel>Select Backup Storage</DropdownMenuLabel>
-            <DropdownMenuSeparator />
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              ACRONIS 
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              BUCKET FOR BACKUP
-            </DropdownMenuItem>
-            <DropdownMenuItem>
-              {/* <ImageIcon className="h-4 w-4 mr-2" /> */}
-              AWS BUCKET
-            </DropdownMenuItem>
-          </DropdownMenuContent>
-        </DropdownMenu>
-        </div>
+    
         {/* <Link
         target="_blank"
           href="#"
